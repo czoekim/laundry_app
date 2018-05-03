@@ -1,0 +1,219 @@
+[debug] [2018-04-02T00:58:51.650Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T00:58:51.654Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve
+[debug] [2018-04-02T00:58:51.654Z] CLI Version:   3.17.7
+[debug] [2018-04-02T00:58:51.654Z] Platform:      linux
+[debug] [2018-04-02T00:58:51.654Z] Node Version:  v6.11.5
+[debug] [2018-04-02T00:58:51.655Z] Time:          Mon Apr 02 2018 00:58:51 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:51.655Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T00:58:51.670Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T00:58:51.671Z] > authorizing via signed-in user
+[debug] [2018-04-02T00:58:51.674Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 00:58:51 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:52.221Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T00:58:52.222Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Mon Apr 02 2018 00:58:52 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:52.445Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T00:58:52.446Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 00:58:52 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:52.512Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-02T00:58:52.516Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 00:58:52 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:52.673Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-02T00:58:52.695Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 00:58:52 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:52.829Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-02T00:58:52.833Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 00:58:52 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:52.979Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-02T00:58:52.982Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 00:58:52 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:53.142Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-04-02T00:58:53.145Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 00:58:53 GMT+0000 (UTC)
+[debug] [2018-04-02T00:58:53.267Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5016
+
+[debug] [2018-04-02T01:00:36.628Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T01:00:36.632Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve
+[debug] [2018-04-02T01:00:36.632Z] CLI Version:   3.17.7
+[debug] [2018-04-02T01:00:36.632Z] Platform:      linux
+[debug] [2018-04-02T01:00:36.633Z] Node Version:  v6.11.5
+[debug] [2018-04-02T01:00:36.633Z] Time:          Mon Apr 02 2018 01:00:36 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:36.633Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T01:00:36.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T01:00:36.648Z] > authorizing via signed-in user
+[debug] [2018-04-02T01:00:36.651Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 01:00:36 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:36.837Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T01:00:36.839Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Mon Apr 02 2018 01:00:36 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.044Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T01:00:37.046Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.171Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-02T01:00:37.175Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.444Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-02T01:00:37.465Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.576Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-04-02T01:00:37.580Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.706Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-04-02T01:00:37.709Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.862Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-04-02T01:00:37.866Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:37.986Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5016 is not available. Trying another port...
+[debug] [2018-04-02T01:00:37.990Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:00:37 GMT+0000 (UTC)
+[debug] [2018-04-02T01:00:38.100Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5020
+
+[debug] [2018-04-02T01:02:06.039Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T01:02:06.043Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8081
+[debug] [2018-04-02T01:02:06.044Z] CLI Version:   3.17.7
+[debug] [2018-04-02T01:02:06.044Z] Platform:      linux
+[debug] [2018-04-02T01:02:06.044Z] Node Version:  v6.11.5
+[debug] [2018-04-02T01:02:06.044Z] Time:          Mon Apr 02 2018 01:02:06 GMT+0000 (UTC)
+[debug] [2018-04-02T01:02:06.044Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T01:02:06.061Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T01:02:06.061Z] > authorizing via signed-in user
+[debug] [2018-04-02T01:02:06.064Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 01:02:06 GMT+0000 (UTC)
+[debug] [2018-04-02T01:02:06.265Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T01:02:06.266Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Mon Apr 02 2018 01:02:06 GMT+0000 (UTC)
+[debug] [2018-04-02T01:02:06.470Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T01:02:06.472Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 01:02:06 GMT+0000 (UTC)
+[debug] [2018-04-02T01:02:06.536Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-02T01:02:06.539Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 01:02:06 GMT+0000 (UTC)
+[debug] [2018-04-02T01:02:06.820Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8081
+
+[debug] [2018-04-02T02:16:36.510Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T02:16:36.514Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8081
+[debug] [2018-04-02T02:16:36.514Z] CLI Version:   3.17.7
+[debug] [2018-04-02T02:16:36.514Z] Platform:      linux
+[debug] [2018-04-02T02:16:36.514Z] Node Version:  v6.11.5
+[debug] [2018-04-02T02:16:36.515Z] Time:          Mon Apr 02 2018 02:16:36 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:36.515Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T02:16:36.532Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T02:16:36.533Z] > authorizing via signed-in user
+[debug] [2018-04-02T02:16:36.536Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-02T02:16:36.536Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 02 2018 02:16:36 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:36.639Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T02:16:36.648Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 02:16:36 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:37.320Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T02:16:37.322Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Mon Apr 02 2018 02:16:37 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:37.604Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T02:16:37.605Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 02:16:37 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:38.015Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-02T02:16:38.019Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 02:16:38 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:38.153Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 8081 is not available. Trying another port...
+[debug] [2018-04-02T02:16:38.179Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 02:16:38 GMT+0000 (UTC)
+[debug] [2018-04-02T02:16:38.289Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8085
+
+[debug] [2018-04-02T02:17:59.505Z] ----------------------------------------------------------------------
+[debug] [2018-04-02T02:17:59.509Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-04-02T02:17:59.510Z] CLI Version:   3.17.7
+[debug] [2018-04-02T02:17:59.510Z] Platform:      linux
+[debug] [2018-04-02T02:17:59.510Z] Node Version:  v6.11.5
+[debug] [2018-04-02T02:17:59.511Z] Time:          Mon Apr 02 2018 02:17:59 GMT+0000 (UTC)
+[debug] [2018-04-02T02:17:59.511Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-02T02:17:59.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-02T02:17:59.530Z] > authorizing via signed-in user
+[debug] [2018-04-02T02:17:59.534Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 02:17:59 GMT+0000 (UTC)
+[debug] [2018-04-02T02:17:59.750Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T02:17:59.752Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Mon Apr 02 2018 02:17:59 GMT+0000 (UTC)
+[debug] [2018-04-02T02:18:00.139Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-02T02:18:00.141Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Mon Apr 02 2018 02:18:00 GMT+0000 (UTC)
+[debug] [2018-04-02T02:18:00.304Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-02T02:18:00.308Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Mon Apr 02 2018 02:18:00 GMT+0000 (UTC)
+[debug] [2018-04-02T02:18:00.484Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
