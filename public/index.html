@@ -1,0 +1,40 @@
+<!--/*CSS for index.html*/-->
+<!DOCTYPE html>
+<html lang-"en">
+  
+  <!--/*Source used: <!--https://codepen.io/crodg/pen/yNKxej-->
+  <!--Inspiration from: http://ertekinn.com/loginsignup/-->
+  
+  <meta charset="utf-8">
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="authpage_style.css">
+
+  <div id="back">
+    <div class="backLeft"></div>
+  </div>
+  <div id="rightSide">
+    <div class="topLayer">
+      <div class="right">
+        <div class="content">
+          <h2>Login</h2>
+          <form method="post" onsubmit="return false;">
+            <div class="form-group">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" id = "username" />
+            </div>
+            <div class-"form-group">
+              <label for="password" class="form-label">Password</label>
+              <input type="text" id = "password"/>
+            </div>
+            <button id="goRight" class="off" onclick="handleSignUp()">Sign Up</button>
+            <button id="login" type="submit" onclick="toggleSignIn()">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src = "bundle.js"></script>
+
+</html>

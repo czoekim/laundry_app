@@ -1,0 +1,222 @@
+<!--Main Page HTML-->
+<!DOCTYPE html>
+<html>
+<!-- Sources used for code -->
+<!-- Template: https://www.w3schools.com/w3css/w3css_templates.asp -->
+<!-- Dropdown buttons: https://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp -->
+<!-- Column formatting: http://jsfiddle.net/nayztL4y/17/ -->
+<!-- Legend: http://jsfiddle.net/nayztL4y/17/ http://jsfiddle.net/MTB2q/ -->
+
+<title>L.I.T.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="style.css">
+<head>
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body onload="refresh()">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Dorm<br>Status</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <button onclick="toggleSignOut()" class="w3-bar-item w3-button w3-hover-white">Sign Out</button>
+    <button onclick="refresh()" class="w3-bar-item w3-button w3-hover-white">Refresh</button>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Holt</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Sutton</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Ward</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">McKean</a>
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Elizabeths</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Strong</a>
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Laundry Informational Technologies </span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Holt Hall</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Laundry Status</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <!-- Dryer 1 -->
+    <div class="w3-half">
+    <div class="container">
+    <div id="dryer1"><h3>D</h3>(top)</div>
+    <div class="dropdown">
+      <button class="dropbtn">Machine Status</button>
+      <div class="dropdown-content">
+          <a href="#" <button id="dryer_inuse1" type="button" onclick="readUserData(this.id, document.getElementById('dryer1'))"></button>In Use</a>
+          <a href="#"  <button id="dryer_available1" type="button" onclick="readUserData(this.id, document.getElementById('dryer1'))"></button>Available</a>
+          <a href="#" <button id="dryer_broken1" type="button" onclick="readUserData(this.id,document.getElementById('dryer1'))"></button>Broken</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--Washer 1 -->
+    <div class="w3-half">
+    <div class="container">
+    <div id="washer1"><h2>W</h2></div>
+    <div class="dropdown">
+        <button class="dropbtn">Machine Status</button>
+        <div class="dropdown-content">
+            <a href="#" <button id="washer_inuse1" type="button" onclick="readUserData(this.id, document.getElementById('washer1'))"></button>In Use</a>
+            <a href="#" <button id="washer_available1" type="button" onclick="readUserData(this.id, document.getElementById('washer1'))"></button>Available</a>
+            <a href="#" <button id="washer_broken1" type="button" onclick="readUserData(this.id, document.getElementById('washer1'))"></button>Broken</a>
+        </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div class="w3-row-padding">
+    <!-- Dryer 2 -->
+    <div class="w3-half">
+    <div class="container">
+    <div id="dryer2"><h3>D</h3>(bottom)</div>
+      <div class="dropdown">
+        <button class="dropbtn"onclick="myFunction()">Machine Status</button>
+        <div class="dropdown-content">
+          <a href="#" <button id="dryer_inuse2" type="button" onclick="readUserData(this.id, document.getElementById('dryer2'))"></button>In Use</a>
+          <a href="#" <button id="dryer_available2" type="button" onclick="readUserData(this.id, document.getElementById('dryer2'))"></button>Available</a>
+          <a href="#" <button id="dryer_broken2" type="button" onclick="readUserData(this.id, document.getElementById('dryer2'))"></button>Broken</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Washer 2 -->
+    <div class="w3-half">
+    <div class="container">
+    <div id="washer2"><h2>W</h2></div>
+      <div class="dropdown">
+        <button class="dropbtn">Machine Status</button>
+        <div class="dropdown-content">
+          <a href="#" <button id="washer_inuse2" type="button" onclick="readUserData(this.id, document.getElementById('washer2'))"></button>In Use</a>
+          <a href="#" <button id="washer_available2" type="button" onclick="readUserData(this.id, document.getElementById('washer2'))"></button>Available</a>
+          <a href="#" <button id="washer_broken2" type="button" onclick="readUserData(this.id, document.getElementById('washer2'))"></button>Broken</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="w3-row-padding">
+    <!-- Dryer 3 -->
+    <div class="w3-half">
+    <div class="container">
+    <div id="dryer3"><h2>D</h2></div>
+      <div class="dropdown">
+        <button class="dropbtn">Machine Status</button>
+        <div class="dropdown-content">
+          <a href="#" <button id="dryer_inuse3" type="button" onclick="readUserData(this.id,document.getElementById('dryer3'))"></button>In Use</a>
+          <a href="#" <button id="dryer_available3" type="button" onclick="readUserData(this.id, document.getElementById('dryer3'))"></button>Available</a>
+          <a href="#" <button id="dryer_broken3" type="button" onclick="readUserData(this.id, document.getElementById('dryer3'))"></button>Broken</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Washer 3 -->
+    <div class="w3-half">
+    <div class="container">
+    <div id="washer3"><h2>W</h2></div>
+      <div class="dropdown">
+        <button class="dropbtn">Machine Status</button>
+        <div class="dropdown-content">
+          <a href="#" <button id="washer_inuse3" type="button" onclick="readUserData(this.id, document.getElementById('washer3'))"></button>In Use</a>
+          <a href="#" <button id="washer_available3" type="button" onclick="readUserData(this.id, document.getElementById('washer3'))"></button>Available</a>
+          <a href="#" <button id="washer_broken3" type="button" onclick="readUserData(this.id, document.getElementById('washer3'))"></button>Broken</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>This page will inform you about the condition of the washers and dryers in Holt Hall</p>
+    <p style="font-size:8px">Brought to you by Laundry Informational Technologies℠</p>
+    </p>
+  </div>
+
+  <!-- Legend -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Legend.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <FIELDSET>
+    <LEGEND></LEGEND>
+    <ul class="legend">
+      <li><span class="taken"></span> Taken</li>
+      <li><span class="open"></span> Open</li>
+      <li><span class="out_of_service"></span> Out-of-service</li>
+      <li><span class="forsaken"></span> Forsaken</li>
+    </ul>
+    </FIELDSET>
+  </div>
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+  <p class="w3-right">
+    Powered by
+    <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  </p>
+</div>
+
+<!--Configures firebase to this html page-->
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+<script src="bundle.js"></script>
+
+<!--Script to open and close sidebar-->
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+</html>

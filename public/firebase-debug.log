@@ -1,0 +1,900 @@
+[debug] [2018-04-26T04:15:11.274Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T04:15:11.277Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-04-26T04:15:11.278Z] CLI Version:   3.17.7
+[debug] [2018-04-26T04:15:11.278Z] Platform:      linux
+[debug] [2018-04-26T04:15:11.278Z] Node Version:  v6.11.5
+[debug] [2018-04-26T04:15:11.278Z] Time:          Thu Apr 26 2018 04:15:11 GMT+0000 (UTC)
+[debug] [2018-04-26T04:15:11.278Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-26T04:15:11.299Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-26T04:15:11.300Z] > authorizing via signed-in user
+[debug] [2018-04-26T04:15:11.303Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-26T04:15:11.303Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 26 2018 04:15:11 GMT+0000 (UTC)
+[debug] [2018-04-26T04:15:11.391Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T04:15:11.400Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 04:15:11 GMT+0000 (UTC)
+[debug] [2018-04-26T04:15:11.551Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T04:15:11.552Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu Apr 26 2018 04:15:11 GMT+0000 (UTC)
+[debug] [2018-04-26T04:15:11.905Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T04:15:11.906Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 04:15:11 GMT+0000 (UTC)
+[debug] [2018-04-26T04:15:11.985Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-26T04:15:11.989Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu Apr 26 2018 04:15:11 GMT+0000 (UTC)
+[debug] [2018-04-26T04:15:12.189Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-04-26T15:53:36.333Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T15:53:36.337Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-04-26T15:53:36.338Z] CLI Version:   3.17.7
+[debug] [2018-04-26T15:53:36.338Z] Platform:      linux
+[debug] [2018-04-26T15:53:36.338Z] Node Version:  v6.11.5
+[debug] [2018-04-26T15:53:36.338Z] Time:          Thu Apr 26 2018 15:53:36 GMT+0000 (UTC)
+[debug] [2018-04-26T15:53:36.338Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-26T15:53:36.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-26T15:53:36.368Z] > authorizing via signed-in user
+[debug] [2018-04-26T15:53:36.371Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-26T15:53:36.372Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Apr 26 2018 15:53:36 GMT+0000 (UTC)
+[debug] [2018-04-26T15:53:36.472Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T15:53:36.481Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 15:53:36 GMT+0000 (UTC)
+[debug] [2018-04-26T15:53:36.647Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T15:53:36.648Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu Apr 26 2018 15:53:36 GMT+0000 (UTC)
+[debug] [2018-04-26T15:53:36.900Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T15:53:36.901Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 15:53:36 GMT+0000 (UTC)
+[debug] [2018-04-26T15:53:36.959Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-26T15:53:36.963Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu Apr 26 2018 15:53:36 GMT+0000 (UTC)
+[debug] [2018-04-26T15:53:37.175Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-04-26T15:55:53.575Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T15:55:53.579Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-04-26T15:55:53.580Z] CLI Version:   3.17.7
+[debug] [2018-04-26T15:55:53.580Z] Platform:      linux
+[debug] [2018-04-26T15:55:53.580Z] Node Version:  v6.11.5
+[debug] [2018-04-26T15:55:53.580Z] Time:          Thu Apr 26 2018 15:55:53 GMT+0000 (UTC)
+[debug] [2018-04-26T15:55:53.580Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-26T15:55:53.597Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-26T15:55:53.598Z] > authorizing via signed-in user
+[debug] [2018-04-26T15:55:53.602Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 15:55:53 GMT+0000 (UTC)
+[debug] [2018-04-26T15:55:53.772Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T15:55:53.774Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu Apr 26 2018 15:55:53 GMT+0000 (UTC)
+[debug] [2018-04-26T15:55:54.031Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T15:55:54.032Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 15:55:54 GMT+0000 (UTC)
+[debug] [2018-04-26T15:55:54.431Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-26T15:55:54.435Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu Apr 26 2018 15:55:54 GMT+0000 (UTC)
+[debug] [2018-04-26T15:55:54.666Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-04-26T16:00:37.575Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T16:00:37.578Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-04-26T16:00:37.579Z] CLI Version:   3.17.7
+[debug] [2018-04-26T16:00:37.579Z] Platform:      linux
+[debug] [2018-04-26T16:00:37.579Z] Node Version:  v6.11.5
+[debug] [2018-04-26T16:00:37.579Z] Time:          Thu Apr 26 2018 16:00:37 GMT+0000 (UTC)
+[debug] [2018-04-26T16:00:37.579Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-26T16:00:37.594Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-26T16:00:37.595Z] > authorizing via signed-in user
+[debug] [2018-04-26T16:00:37.598Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 16:00:37 GMT+0000 (UTC)
+[debug] [2018-04-26T16:00:37.779Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T16:00:37.781Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu Apr 26 2018 16:00:37 GMT+0000 (UTC)
+[debug] [2018-04-26T16:00:38.281Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T16:00:38.283Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu Apr 26 2018 16:00:38 GMT+0000 (UTC)
+[debug] [2018-04-26T16:00:38.461Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-26T16:00:38.464Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu Apr 26 2018 16:00:38 GMT+0000 (UTC)
+[debug] [2018-04-26T16:00:38.686Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-04-29T23:46:46.391Z] ----------------------------------------------------------------------
+[debug] [2018-04-29T23:46:46.394Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-04-29T23:46:46.395Z] CLI Version:   3.17.7
+[debug] [2018-04-29T23:46:46.395Z] Platform:      linux
+[debug] [2018-04-29T23:46:46.395Z] Node Version:  v6.11.5
+[debug] [2018-04-29T23:46:46.396Z] Time:          Sun Apr 29 2018 23:46:46 GMT+0000 (UTC)
+[debug] [2018-04-29T23:46:46.396Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-29T23:46:46.421Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-29T23:46:46.421Z] > authorizing via signed-in user
+[debug] [2018-04-29T23:46:46.424Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-29T23:46:46.425Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 29 2018 23:46:46 GMT+0000 (UTC)
+[debug] [2018-04-29T23:46:46.541Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-29T23:46:46.549Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Sun Apr 29 2018 23:46:46 GMT+0000 (UTC)
+[debug] [2018-04-29T23:46:46.684Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-29T23:46:46.685Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Sun Apr 29 2018 23:46:46 GMT+0000 (UTC)
+[debug] [2018-04-29T23:46:46.960Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-29T23:46:46.962Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Sun Apr 29 2018 23:46:46 GMT+0000 (UTC)
+[debug] [2018-04-29T23:46:47.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-04-29T23:46:47.031Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Sun Apr 29 2018 23:46:47 GMT+0000 (UTC)
+[debug] [2018-04-29T23:46:47.176Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T03:52:56.813Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T03:52:56.816Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T03:52:56.817Z] CLI Version:   3.17.7
+[debug] [2018-05-03T03:52:56.817Z] Platform:      linux
+[debug] [2018-05-03T03:52:56.817Z] Node Version:  v6.11.5
+[debug] [2018-05-03T03:52:56.817Z] Time:          Thu May 03 2018 03:52:56 GMT+0000 (UTC)
+[debug] [2018-05-03T03:52:56.817Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T03:52:56.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T03:52:56.838Z] > authorizing via signed-in user
+[debug] [2018-05-03T03:52:56.841Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-03T03:52:56.841Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 03 2018 03:52:56 GMT+0000 (UTC)
+[debug] [2018-05-03T03:52:56.937Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T03:52:56.944Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 03:52:56 GMT+0000 (UTC)
+[debug] [2018-05-03T03:52:57.153Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T03:52:57.154Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 03:52:57 GMT+0000 (UTC)
+[debug] [2018-05-03T03:52:57.512Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T03:52:57.513Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 03:52:57 GMT+0000 (UTC)
+[debug] [2018-05-03T03:52:57.758Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T03:52:57.762Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 03:52:57 GMT+0000 (UTC)
+[debug] [2018-05-03T03:52:58.006Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T03:54:48.749Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T03:54:48.752Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T03:54:48.753Z] CLI Version:   3.17.7
+[debug] [2018-05-03T03:54:48.753Z] Platform:      linux
+[debug] [2018-05-03T03:54:48.753Z] Node Version:  v6.11.5
+[debug] [2018-05-03T03:54:48.754Z] Time:          Thu May 03 2018 03:54:48 GMT+0000 (UTC)
+[debug] [2018-05-03T03:54:48.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T03:54:48.768Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T03:54:48.769Z] > authorizing via signed-in user
+[debug] [2018-05-03T03:54:48.771Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 03:54:48 GMT+0000 (UTC)
+[debug] [2018-05-03T03:54:48.966Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T03:54:48.968Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 03:54:48 GMT+0000 (UTC)
+[debug] [2018-05-03T03:54:49.245Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T03:54:49.246Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 03:54:49 GMT+0000 (UTC)
+[debug] [2018-05-03T03:54:49.312Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T03:54:49.317Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 03:54:49 GMT+0000 (UTC)
+[debug] [2018-05-03T03:54:49.505Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:00:28.504Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:00:28.507Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:00:28.508Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:00:28.508Z] Platform:      linux
+[debug] [2018-05-03T04:00:28.508Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:00:28.508Z] Time:          Thu May 03 2018 04:00:28 GMT+0000 (UTC)
+[debug] [2018-05-03T04:00:28.508Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:00:28.523Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:00:28.524Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:00:28.527Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:00:28 GMT+0000 (UTC)
+[debug] [2018-05-03T04:00:28.716Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:00:28.718Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:00:28 GMT+0000 (UTC)
+[debug] [2018-05-03T04:00:28.916Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:00:28.917Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:00:28 GMT+0000 (UTC)
+[debug] [2018-05-03T04:00:29.273Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:00:29.276Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:00:29 GMT+0000 (UTC)
+[debug] [2018-05-03T04:00:29.418Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 8080 is not available. Trying another port...
+[debug] [2018-05-03T04:00:29.439Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:00:29 GMT+0000 (UTC)
+[debug] [2018-05-03T04:00:29.535Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8084
+
+[debug] [2018-05-03T04:01:51.910Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:01:51.914Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:01:51.914Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:01:51.914Z] Platform:      linux
+[debug] [2018-05-03T04:01:51.914Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:01:51.915Z] Time:          Thu May 03 2018 04:01:51 GMT+0000 (UTC)
+[debug] [2018-05-03T04:01:51.915Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:01:51.929Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:01:51.930Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:01:51.933Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:01:51 GMT+0000 (UTC)
+[debug] [2018-05-03T04:01:52.117Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:01:52.119Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:01:52 GMT+0000 (UTC)
+[debug] [2018-05-03T04:01:52.351Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:01:52.352Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:01:52 GMT+0000 (UTC)
+[debug] [2018-05-03T04:01:52.535Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:01:52.538Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:01:52 GMT+0000 (UTC)
+[debug] [2018-05-03T04:01:52.725Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:08:27.375Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:08:27.378Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:08:27.379Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:08:27.379Z] Platform:      linux
+[debug] [2018-05-03T04:08:27.379Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:08:27.379Z] Time:          Thu May 03 2018 04:08:27 GMT+0000 (UTC)
+[debug] [2018-05-03T04:08:27.379Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:08:27.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:08:27.395Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:08:27.415Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:08:27 GMT+0000 (UTC)
+[debug] [2018-05-03T04:08:27.601Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:08:27.603Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:08:27 GMT+0000 (UTC)
+[debug] [2018-05-03T04:08:27.944Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:08:27.945Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:08:27 GMT+0000 (UTC)
+[debug] [2018-05-03T04:08:28.068Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:08:28.072Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:08:28 GMT+0000 (UTC)
+[debug] [2018-05-03T04:08:28.248Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:26:19.400Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:26:19.403Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:26:19.404Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:26:19.404Z] Platform:      linux
+[debug] [2018-05-03T04:26:19.404Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:26:19.404Z] Time:          Thu May 03 2018 04:26:19 GMT+0000 (UTC)
+[debug] [2018-05-03T04:26:19.404Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:26:19.418Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:26:19.419Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:26:19.422Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:26:19 GMT+0000 (UTC)
+[debug] [2018-05-03T04:26:19.598Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:26:19.600Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:26:19 GMT+0000 (UTC)
+[debug] [2018-05-03T04:26:19.849Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:26:19.851Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:26:19 GMT+0000 (UTC)
+[debug] [2018-05-03T04:26:20.017Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:26:20.021Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:26:20 GMT+0000 (UTC)
+[debug] [2018-05-03T04:26:20.265Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:28:33.933Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:28:33.936Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:28:33.936Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:28:33.937Z] Platform:      linux
+[debug] [2018-05-03T04:28:33.937Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:28:33.937Z] Time:          Thu May 03 2018 04:28:33 GMT+0000 (UTC)
+[debug] [2018-05-03T04:28:33.937Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:28:33.952Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:28:33.952Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:28:33.955Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:28:33 GMT+0000 (UTC)
+[debug] [2018-05-03T04:28:34.349Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:28:34.351Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:28:34 GMT+0000 (UTC)
+[debug] [2018-05-03T04:28:34.818Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:28:34.819Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:28:34 GMT+0000 (UTC)
+[debug] [2018-05-03T04:28:35.003Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:28:35.007Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:28:35 GMT+0000 (UTC)
+[debug] [2018-05-03T04:28:35.195Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:29:57.968Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:29:57.971Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:29:57.972Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:29:57.972Z] Platform:      linux
+[debug] [2018-05-03T04:29:57.972Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:29:57.972Z] Time:          Thu May 03 2018 04:29:57 GMT+0000 (UTC)
+[debug] [2018-05-03T04:29:57.972Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:29:57.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:29:57.986Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:29:57.988Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:29:57 GMT+0000 (UTC)
+[debug] [2018-05-03T04:29:58.156Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:29:58.158Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:29:58 GMT+0000 (UTC)
+[debug] [2018-05-03T04:29:58.364Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:29:58.366Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:29:58 GMT+0000 (UTC)
+[debug] [2018-05-03T04:29:58.484Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:29:58.488Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:29:58 GMT+0000 (UTC)
+[debug] [2018-05-03T04:29:58.634Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:32:55.072Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:32:55.075Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:32:55.076Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:32:55.076Z] Platform:      linux
+[debug] [2018-05-03T04:32:55.076Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:32:55.076Z] Time:          Thu May 03 2018 04:32:55 GMT+0000 (UTC)
+[debug] [2018-05-03T04:32:55.076Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:32:55.091Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:32:55.092Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:32:55.095Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:32:55 GMT+0000 (UTC)
+[debug] [2018-05-03T04:32:55.314Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:32:55.316Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:32:55 GMT+0000 (UTC)
+[debug] [2018-05-03T04:32:55.637Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:32:55.638Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:32:55 GMT+0000 (UTC)
+[debug] [2018-05-03T04:32:55.706Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:32:55.710Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:32:55 GMT+0000 (UTC)
+[debug] [2018-05-03T04:32:55.828Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:33:37.249Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:33:37.253Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:33:37.254Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:33:37.254Z] Platform:      linux
+[debug] [2018-05-03T04:33:37.254Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:33:37.254Z] Time:          Thu May 03 2018 04:33:37 GMT+0000 (UTC)
+[debug] [2018-05-03T04:33:37.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:33:37.268Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:33:37.269Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:33:37.272Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:33:37 GMT+0000 (UTC)
+[debug] [2018-05-03T04:33:37.490Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:33:37.491Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:33:37 GMT+0000 (UTC)
+[debug] [2018-05-03T04:33:37.734Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:33:37.736Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:33:37 GMT+0000 (UTC)
+[debug] [2018-05-03T04:33:37.803Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:33:37.807Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:33:37 GMT+0000 (UTC)
+[debug] [2018-05-03T04:33:37.945Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:35:49.580Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:35:49.585Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:35:49.586Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:35:49.586Z] Platform:      linux
+[debug] [2018-05-03T04:35:49.586Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:35:49.586Z] Time:          Thu May 03 2018 04:35:49 GMT+0000 (UTC)
+[debug] [2018-05-03T04:35:49.587Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:35:49.605Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:35:49.605Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:35:49.608Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:35:49 GMT+0000 (UTC)
+[debug] [2018-05-03T04:35:49.804Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:35:49.806Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:35:49 GMT+0000 (UTC)
+[debug] [2018-05-03T04:35:50.074Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:35:50.076Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:35:50 GMT+0000 (UTC)
+[debug] [2018-05-03T04:35:50.145Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:35:50.148Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:35:50 GMT+0000 (UTC)
+[debug] [2018-05-03T04:35:50.386Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:36:32.885Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:36:32.888Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:36:32.889Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:36:32.889Z] Platform:      linux
+[debug] [2018-05-03T04:36:32.889Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:36:32.889Z] Time:          Thu May 03 2018 04:36:32 GMT+0000 (UTC)
+[debug] [2018-05-03T04:36:32.889Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:36:32.903Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:36:32.904Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:36:32.906Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:36:32 GMT+0000 (UTC)
+[debug] [2018-05-03T04:36:33.104Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:36:33.105Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:36:33 GMT+0000 (UTC)
+[debug] [2018-05-03T04:36:33.331Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:36:33.333Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:36:33 GMT+0000 (UTC)
+[debug] [2018-05-03T04:36:33.641Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:36:33.644Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:36:33 GMT+0000 (UTC)
+[debug] [2018-05-03T04:36:33.789Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:39:48.650Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:39:48.654Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:39:48.654Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:39:48.654Z] Platform:      linux
+[debug] [2018-05-03T04:39:48.654Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:39:48.655Z] Time:          Thu May 03 2018 04:39:48 GMT+0000 (UTC)
+[debug] [2018-05-03T04:39:48.655Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:39:48.669Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:39:48.669Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:39:48.672Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-03T04:39:48.672Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 03 2018 04:39:48 GMT+0000 (UTC)
+[debug] [2018-05-03T04:39:48.772Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:39:48.780Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:39:48 GMT+0000 (UTC)
+[debug] [2018-05-03T04:39:48.943Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:39:48.944Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:39:48 GMT+0000 (UTC)
+[debug] [2018-05-03T04:39:49.211Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:39:49.212Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:39:49 GMT+0000 (UTC)
+[debug] [2018-05-03T04:39:49.323Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:39:49.327Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:39:49 GMT+0000 (UTC)
+[debug] [2018-05-03T04:39:49.490Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:45:14.928Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:45:14.932Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:45:14.933Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:45:14.933Z] Platform:      linux
+[debug] [2018-05-03T04:45:14.933Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:45:14.933Z] Time:          Thu May 03 2018 04:45:14 GMT+0000 (UTC)
+[debug] [2018-05-03T04:45:14.933Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:45:14.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:45:14.949Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:45:14.952Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:45:14 GMT+0000 (UTC)
+[debug] [2018-05-03T04:45:15.144Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:45:15.146Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:45:15 GMT+0000 (UTC)
+[debug] [2018-05-03T04:45:15.346Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:45:15.348Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:45:15 GMT+0000 (UTC)
+[debug] [2018-05-03T04:45:15.530Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:45:15.534Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:45:15 GMT+0000 (UTC)
+[debug] [2018-05-03T04:45:20.718Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:47:04.051Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:47:04.054Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:47:04.055Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:47:04.055Z] Platform:      linux
+[debug] [2018-05-03T04:47:04.055Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:47:04.055Z] Time:          Thu May 03 2018 04:47:04 GMT+0000 (UTC)
+[debug] [2018-05-03T04:47:04.055Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:47:04.070Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:47:04.070Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:47:04.073Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:47:04 GMT+0000 (UTC)
+[debug] [2018-05-03T04:47:04.283Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:47:04.284Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:47:04 GMT+0000 (UTC)
+[debug] [2018-05-03T04:47:04.689Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:47:04.691Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:47:04 GMT+0000 (UTC)
+[debug] [2018-05-03T04:47:04.760Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:47:04.764Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:47:04 GMT+0000 (UTC)
+[debug] [2018-05-03T04:47:04.924Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:55:12.604Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:55:12.607Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:55:12.608Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:55:12.608Z] Platform:      linux
+[debug] [2018-05-03T04:55:12.608Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:55:12.608Z] Time:          Thu May 03 2018 04:55:12 GMT+0000 (UTC)
+[debug] [2018-05-03T04:55:12.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:55:12.622Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:55:12.622Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:55:12.625Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:55:12 GMT+0000 (UTC)
+[debug] [2018-05-03T04:55:12.800Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:55:12.802Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:55:12 GMT+0000 (UTC)
+[debug] [2018-05-03T04:55:13.050Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:55:13.052Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:55:13 GMT+0000 (UTC)
+[debug] [2018-05-03T04:55:13.925Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:55:13.930Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:55:13 GMT+0000 (UTC)
+[debug] [2018-05-03T04:55:14.064Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T04:57:40.156Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T04:57:40.159Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T04:57:40.160Z] CLI Version:   3.17.7
+[debug] [2018-05-03T04:57:40.160Z] Platform:      linux
+[debug] [2018-05-03T04:57:40.160Z] Node Version:  v6.11.5
+[debug] [2018-05-03T04:57:40.160Z] Time:          Thu May 03 2018 04:57:40 GMT+0000 (UTC)
+[debug] [2018-05-03T04:57:40.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T04:57:40.175Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T04:57:40.176Z] > authorizing via signed-in user
+[debug] [2018-05-03T04:57:40.179Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:57:40 GMT+0000 (UTC)
+[debug] [2018-05-03T04:57:40.377Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:57:40.378Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 04:57:40 GMT+0000 (UTC)
+[debug] [2018-05-03T04:57:40.691Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T04:57:40.692Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 04:57:40 GMT+0000 (UTC)
+[debug] [2018-05-03T04:57:41.042Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T04:57:41.046Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 04:57:41 GMT+0000 (UTC)
+[debug] [2018-05-03T04:57:41.211Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T05:03:20.426Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T05:03:20.430Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T05:03:20.430Z] CLI Version:   3.17.7
+[debug] [2018-05-03T05:03:20.430Z] Platform:      linux
+[debug] [2018-05-03T05:03:20.430Z] Node Version:  v6.11.5
+[debug] [2018-05-03T05:03:20.430Z] Time:          Thu May 03 2018 05:03:20 GMT+0000 (UTC)
+[debug] [2018-05-03T05:03:20.431Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T05:03:20.446Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T05:03:20.446Z] > authorizing via signed-in user
+[debug] [2018-05-03T05:03:20.449Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 05:03:20 GMT+0000 (UTC)
+[debug] [2018-05-03T05:03:20.652Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T05:03:20.653Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 05:03:20 GMT+0000 (UTC)
+[debug] [2018-05-03T05:03:20.863Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T05:03:20.865Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 05:03:20 GMT+0000 (UTC)
+[debug] [2018-05-03T05:03:20.990Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T05:03:20.994Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 05:03:20 GMT+0000 (UTC)
+[debug] [2018-05-03T05:03:21.693Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T05:04:59.704Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T05:04:59.708Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T05:04:59.709Z] CLI Version:   3.17.7
+[debug] [2018-05-03T05:04:59.709Z] Platform:      linux
+[debug] [2018-05-03T05:04:59.709Z] Node Version:  v6.11.5
+[debug] [2018-05-03T05:04:59.709Z] Time:          Thu May 03 2018 05:04:59 GMT+0000 (UTC)
+[debug] [2018-05-03T05:04:59.709Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T05:04:59.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T05:04:59.728Z] > authorizing via signed-in user
+[debug] [2018-05-03T05:04:59.732Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 05:04:59 GMT+0000 (UTC)
+[debug] [2018-05-03T05:05:00.021Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T05:05:00.023Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 05:05:00 GMT+0000 (UTC)
+[debug] [2018-05-03T05:05:00.263Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T05:05:00.264Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 05:05:00 GMT+0000 (UTC)
+[debug] [2018-05-03T05:05:00.433Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T05:05:00.437Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 05:05:00 GMT+0000 (UTC)
+[debug] [2018-05-03T05:05:00.600Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T14:38:05.776Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T14:38:05.780Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T14:38:05.780Z] CLI Version:   3.17.7
+[debug] [2018-05-03T14:38:05.781Z] Platform:      linux
+[debug] [2018-05-03T14:38:05.781Z] Node Version:  v6.11.5
+[debug] [2018-05-03T14:38:05.781Z] Time:          Thu May 03 2018 14:38:05 GMT+0000 (UTC)
+[debug] [2018-05-03T14:38:05.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T14:38:05.803Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T14:38:05.803Z] > authorizing via signed-in user
+[debug] [2018-05-03T14:38:05.806Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-03T14:38:05.807Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 03 2018 14:38:05 GMT+0000 (UTC)
+[debug] [2018-05-03T14:38:05.904Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T14:38:05.913Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 14:38:05 GMT+0000 (UTC)
+[debug] [2018-05-03T14:38:06.075Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T14:38:06.077Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 14:38:06 GMT+0000 (UTC)
+[debug] [2018-05-03T14:38:06.333Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T14:38:06.334Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 14:38:06 GMT+0000 (UTC)
+[debug] [2018-05-03T14:38:06.399Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T14:38:06.402Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 14:38:06 GMT+0000 (UTC)
+[debug] [2018-05-03T14:38:06.534Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
+[debug] [2018-05-03T23:32:04.827Z] ----------------------------------------------------------------------
+[debug] [2018-05-03T23:32:04.830Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.5/bin/node /home/ubuntu/.nvm/versions/node/v6.11.5/bin/firebase serve -o 0.0.0.0 -p 8080
+[debug] [2018-05-03T23:32:04.831Z] CLI Version:   3.17.7
+[debug] [2018-05-03T23:32:04.831Z] Platform:      linux
+[debug] [2018-05-03T23:32:04.831Z] Node Version:  v6.11.5
+[debug] [2018-05-03T23:32:04.831Z] Time:          Thu May 03 2018 23:32:04 GMT+0000 (UTC)
+[debug] [2018-05-03T23:32:04.831Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-03T23:32:04.847Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-03T23:32:04.847Z] > authorizing via signed-in user
+[debug] [2018-05-03T23:32:04.850Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-03T23:32:04.851Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4luu-mAhSZ1OIjAv6oHANYDGF5xFFaZEe4HQ5fBbIxw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 03 2018 23:32:04 GMT+0000 (UTC)
+[debug] [2018-05-03T23:32:04.962Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T23:32:04.971Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 23:32:04 GMT+0000 (UTC)
+[debug] [2018-05-03T23:32:05.152Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T23:32:05.153Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/laundry-app-test/tokens  
+  
+ Thu May 03 2018 23:32:05 GMT+0000 (UTC)
+[debug] [2018-05-03T23:32:06.241Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-03T23:32:06.243Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laundry-app-test  
+  
+ Thu May 03 2018 23:32:06 GMT+0000 (UTC)
+[debug] [2018-05-03T23:32:06.408Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/Project Folder'...
+[info] 
+[debug] [2018-05-03T23:32:06.411Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/356319952276/clients/_:getWebAppConfig  
+  
+ Thu May 03 2018 23:32:06 GMT+0000 (UTC)
+[debug] [2018-05-03T23:32:06.568Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8080
+
