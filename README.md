@@ -40,7 +40,7 @@ kill -9 PID# // PID# provided by previous command
 ```
 
 ## Acknowledgements 
-- [Curtis Rodgers](https://codepen.io/crodg/pen/yNKxej) for HTML/CSS inspiration on the authenication page
+- [Curtis Rodgers](https://codepen.io/crodg/pen/yNKxej) for HTML/CSS inspiration on the authentication page
 - [W3Schools Template](https://www.w3schools.com/w3css/w3css_templates.asp) for HTML/CSS on the main page
 - [JSFiddle](http://jsfiddle.net/nayztL4y/17/) for column/legend design on the main page
 - Firebase for its services with the backend authenication and database API
