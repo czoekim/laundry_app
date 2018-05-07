@@ -1,5 +1,8 @@
 # laundry_app
 
+Note: The function folder is currently incomplete due to the volume of dependencies needed. 
+The main project files can be found under public.
+
 This project is the first prototype for a web application that will allow students to know the current status of the laundry rooms in their residence halls. This version consists of a login page and the main page where machine statuses are set to 'Available', 'In-use', or 'Broken' according its status in our database. It runs on a local host and can be manipulated by its user. We used Firebase Realtime Database service as our backend component and Cloud9 as our IDE. 
 
 ## Getting Started
